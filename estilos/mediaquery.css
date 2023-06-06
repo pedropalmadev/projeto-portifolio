@@ -5,6 +5,42 @@ Tablet: 768px até 992px
 Desktop: 992px até 1200px
 Grandes telas: acima de 1200px
 */
+@media screen and (max-width: 600px) {
+    
+    h1 {
+        font-size: medium;
+    }
+
+    h2 {
+        font-size: small;
+    }
+
+    .card-text {
+        font-size: 0.8em
+    }
+
+    .card-text>h1 {
+        text-align: center;
+    }
+
+    .codigo {
+        width: 30%;
+    }
+    
+    .card-container {
+        aspect-ratio: 1 / 1;
+        
+    }
+
+    .sobrep {
+        width: 70%;
+        height: 100%;
+        font-size: 0.5em;
+    }
+    .sobrepro {
+        font-size: 0.6em;
+    }
+}
 @media screen and (min-width: 600px) and (max-width: 768px) {
     
     h1 {
