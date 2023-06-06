@@ -139,6 +139,7 @@ span.emote {
     justify-content: space-evenly;
     align-items: center;
     width: 90%;
+    aspect-ratio: 4 / 1;
 }
 
 .card {
@@ -304,6 +305,11 @@ span.emote {
 
 strong {
     color: rgb(116, 116, 253)72A;
+}
+
+.sobrepro {
+    color: grey;
+    padding: 5px 0px;
 }
 
 @media screen and (max-width: 992px) {
